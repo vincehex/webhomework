@@ -1,2 +1,1 @@
-Git is a distributed version control system.
-Git is free software.
+有时候想约个炮,却不小心谈了场恋爱。有时候想好好谈个恋爱,却发现只是约了个炮。世界那么大,床却那么小,床上的两个人曾经那么好,却不能到老。我喜欢牵了手就能结婚的故事,却活在了一个上了床也没有结果的年代
