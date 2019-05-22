@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>A Corder</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<a href="#" class="top"></a>
+		<div id="logo"></div>
+		<div id="Main">
+			<h1>日拱一卒 功不唐捐</h1>
+			<h2>有志者，事竟成，破釜沉舟，百二秦关终属楚；苦心人，天不负，卧薪尝胆，三千越甲可吞吴！</h2>
+			<div id="nav">
+				<ul>
+					<li style="float: left;"><a href="#">我的简介</a></li>
+					<li><a href="我的家乡.html">我的家乡</a></li>
+					<li><a href="我的梦想.html">我的梦想</a></li>
+					<li><a href="我的兴趣.html">我的兴趣</a></li>
+				</ul>
+			</div>
+			<div id="Maintent">
+				<div id="banner1">
+					<a href="#cul1"><img src="img/cat1.jpg" ></a>
+					<span>第一只猫</span>
+				</div>
+				<div id="content">
+					<div id="jianjie">
+						姓名：张竞原<br />
+						性别：男<br />
+						年龄：19<br />
+						出生日期：1999/10/10<br />
+						籍贯：河南省<br />
+					</div>
+				</div>
+				<div id="content" style="margin: 30px; clear: left;">
+					<div id="jianjie">
+						联系电话：17638352092<br />
+						QQ号：1648146511<br />
+						爱好：编程<br />
+						就读：郑州航空工业管理学院<br />
+						目标：考研<br />
+					</div>
+				</div>
+				<div id="banner2">
+					<a href="#cul2"><img src="img/cat2.jpg" ></a>
+					<span>第二只猫</span>
+				</div>
+			</div>
+			<div>
+				<div id="cul1" class="pop-overlay">
+					<div class="popup">
+						<img src="img/cat1.jpg" >
+						<p>第一只猫</p>
+						<a href="#bady" class="close">&times;</a>
+					</div>
+				</div>
+				<div id="cul2" class="pop-overlay">
+					<div class="popup">
+						<img src="img/cat2.jpg" >
+						<p>第二只猫</p>
+						<a href="#bady" class="close">&times;</a>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				&copy;张竞原<br />
+				欢迎参观
+			</div>
+		</div>
+		<script type="text/javascript" src="js/背景线条.js"></script>
+		<script>
+			var bg_img=["img/雪景.jpg","img/雪山.jpg","img/天路.jpg","img/意境.jpg"]; 
+			document.body.style.background="url("+bg_img[Math.floor(Math.random()*(bg_img.length))]+")";
+		</script>
+		<script type="text/javascript" src="js/鼠标点击效果(心).js"></script>
+	</body>
+</html>

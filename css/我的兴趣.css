@@ -1,0 +1,161 @@
+body{
+	height: 1500px;
+	cursor: url(../img/666.ico),auto;
+}
+a:hover{
+	cursor: url(../img/666.ico),auto;
+}
+#clear{
+    clear: both;
+}
+/* 导航栏 */
+#header{
+	
+}
+#base{
+    /* height: 200px; */
+}
+#base ul{
+    list-style: none;
+	margin-right: 5%;
+}
+#base ul li{
+    float: right;
+}
+#base ul li a{
+    display: block;
+	padding: 14px 25px;
+    text-decoration: none;
+	color: green;
+}
+#base a:hover{
+	font-size: 150%;
+	color: skyblue;
+	word-spacing: 15px;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown > .dropdown-menu{
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    width: 110px;
+	text-align: center;
+    /* display: block; */
+	z-index: 9999;
+    visibility: hidden;
+}
+.dropdown:hover .dropdown-menu{
+    visibility: visible;
+}
+.dropdown>.dropdown-menu:hover .dropdown-item {
+    background: transparent;
+}
+#header h1{
+	text-align: center;
+}
+/* banner条 */
+.pop-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    z-index: 999;
+}
+.pop-overlay:target {
+    visibility: visible;
+}
+.popup {
+    background: #fff;
+    border-radius: 6px;
+    position: relative;
+    margin: 1% 10%;
+    padding: 2em 1em 1em;
+    text-align: center;
+}
+.popup .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+.popup .close:hover{
+    color: #f0546a;
+}
+.popup img{
+	height: 600px;
+	position: relative;
+	top: 10px;
+	margin-bottom: 15px;
+}
+
+/* 主面板 */
+#Main{
+	margin: auto;
+    background: url(../img/蠢诺诺.jpg) no-repeat;
+    position: relative;
+	width: 1000px;
+    height: 600px;
+    background-size: contain;
+}
+
+.maincontent{
+	position: absolute;
+	left: 500px;
+	top: 20px;
+	font-size: 20px;
+}
+.maincontent p{
+	width: 500px;
+	border: 1px solid;
+	box-shadow: 3px 5px gainsboro;
+	background: darkorange;
+}
+.top{
+	position: fixed;
+	background: url(../img/top.png) no-repeat 100% 100%;
+	z-index: 9999;
+	width: 50px;
+	height: 50px;
+	right: 25px;
+	bottom: 25px;
+	background-size: contain;
+}
+#box{
+	letter-spacing: 1px;
+	line-height: 50px;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 15%;
+}
+#c1,#c2,#c3,#c4{
+	position: relative;
+	width: 50%;
+	height: 320px;
+}
+#box h1:before{
+	content: "";
+	position: absolute;
+	width: 40px;
+	height: 2px;
+	top: 18px;
+	margin-left: 2px;
+	background: #6AA756;
+}
+#box span{
+	color: #FFFFFF;
+	margin: 2px;
+	padding: 5px 3px;
+	background: #6AA756;
+}
+#box p{
+	width: 80%;
+	text-align: justify;
+}

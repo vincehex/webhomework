@@ -1,0 +1,67 @@
+body{
+	/* background: url(../img/时间轮播.jpeg) no-repeat; */
+	background-size: cover;
+	text-indent: 35px;
+}
+#clear{
+	clear: both;
+}
+.mui-bar{
+	
+}
+.mui-bar ul{
+	margin-right: 5%;
+	list-style: none;
+}
+.mui-bar li{
+	display: block;
+	float: right;
+	margin: 20px;
+}
+.mui-bar li a{
+	color: green;
+	padding: 15px;
+	text-decoration: none;
+}
+.mui-bar li a:hover{
+	background: burlywood;
+}
+.mui-bar .mui-title{
+	text-align: center;
+}
+#content{
+	width: 80%;
+	margin: 5% 10%;
+}
+#content ul{
+	list-style: none;
+}
+@keyframes type{
+	0%{
+		transform: scale(0.9);
+	}
+	50%{
+		transform: scale(1.3);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+#content li{
+	margin: 2%;
+	padding-left: 20px;
+	border: 1px dotted ;
+	text-align: left;
+	line-height: 25px;
+}
+#content li h1{
+	color: darkmagenta;
+	text-align: center;
+	animation: type 2s 0.2s infinite;
+}
+#content p{
+	margin-right: 2%;
+	font-size: large;
+	/* font-weight: bold; */
+	text-align: justify;
+}
